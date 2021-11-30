@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/images/cupcakeWallpaperCepia.jpg);
+    z-index: 999;
+    
+}
+.transparencia{
+    background-color: rgba(0, 0, 0,1);
+    z-index: -10;
+    
+}
+.container-inicio{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.container-header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+   
+}
+
+.menu{
+    display: flex;
+    margin-right: 1rem;
+    list-style: none;
+    justify-content: space-between;
+}
+.menu a{
+    text-decoration: none;
+    padding: 2rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-weight:550;
+    font-size: 2rem;
+    
+}
+
+.aside{
+    width: 50%;
+    height: 20%;
+    margin-left: 50%;
+    margin-top: 15%;
+}
+.parrafo-inicio{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-acerca{
+    width: 50%;
+    height: auto;
+    margin-left: 50%;
+
+    position: relative;
+    bottom: 10rem;   
+     
+}
+
+.container-acerca h2{
+    text-align: center;
+    margin-left: 3rem;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.acerca-de{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+#categorias{
+    width: 100%;
+    height: 100vh;
+    margin-top: 2rem;
+}
+#categorias h2{
+    font-family: 'Dancing Script', cursive; ;
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.categorias-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.categorias-card{
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+.categorias-card h3 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 2rem;
+    
+}
+.categorias-card h3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+/*productos*/
+.titulo{
+    width: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2rem;
+    font-weight: 500;
+     
+}
+.descripcion{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+.productos-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.productos-card{
+    width: 400px;
+    height: 450px;
+    background-color: whitesmoke;
+    border: 2px black solid;
+    margin: 1rem;
+
+}
+
+.productos-card:hover{
+    
+    transform: scale(1.25);
+    transition: .3s ease;
+    cursor: pointer;
+}
+.productos-card img{
+    border: 2px black solid;
+}
+
+
+figure{
+    width: 200px;
+    height: 150px;
+}

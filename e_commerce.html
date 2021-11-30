@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/e_commerce.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container-inicio" id="inicio">
+            <header>
+                <div class="container-header">
+                    <img class="logo" src="/assets/images/magdalena.png" alt="logo">
+                    <div class="menu-container">
+                        <ul class="menu">
+                            <li class="menu-item"><a href="#inicio">Inicio</a></li>
+                            <li class="menu-item"><a href="#acerca">Acerca de</a></li>
+                            <li class="menu-item"><a href="#categorias">Productos</a></li>
+                            <li class="menu-item"><a href="#mi carrito">Mi carrito</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </header>
+            <aside class="aside">
+                <p class="parrafo-inicio">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam natus nemo, illum quae voluptates nulla aliquam inventore at repellat vel eligendi sapiente, illo quasi consequatur facere qui. Ratione, aperiam sed.
+                    Assumenda reiciendis eos in saepe, amet odio quo excepturi autem dolorem distinctio tempora quaerat. Amet saepe exercitationem autem et assumenda, sunt repellendus quas, nihil non molestiae placeat corrupti itaque laboriosam?
+                    Eius cum corrupti, exercitationem mollitia possimus molestias doloribus perspiciatis. Dolorum illo iste id reiciendis sapiente incidunt qui, minima quidem alias inventore debitis non excepturi ea in iusto natus quos vel?
+                </p>
+            </aside>
+            
+        </div>
+    </section> 
+    <section>
+        <div class="container-acerca" id="acerca">
+            <h2>Azaleas Pastelería</h2>
+            <p class="acerca-de">
+                Azaleas Pastelería nace en el año 2020, en un contexto de cambios constantes...<br>
+                Nuestras recetas siguen los mas rigurosos estándares de <strong>Amor</strong>, <strong>Dulsura</strong> y  <strong>Originalidad</strong><br>
+                Alquimia perfecta transmititda de generación en generación....<br>
+                Sin procesos industriales...verdaderamente artesanal, materia prima de primer nivel y el objetivo de satisfacer las espectativas de nuestros clientes.
+                Hacen que <strong>Azaleas Pastelería</strong> sea tu mejor... opción!.
+            </p>
+        </div>
+    </section>
+    <section id="categorias">
+        <h2>Nuestros Productos</h2>
+        <div class="categorias-container">
+            <template id="categorias-template">
+                <div class="categorias-card">
+                  <h3><a></a></h3>
+                <figure>
+                    <img>
+                    <figcaption></figcaption>
+                </figure>
+                </div>
+                
+            </template>
+        </div>
+        
+    </section>
+    <section id="productos">
+        <div class="productos-container" id="tartas">
+            <template id="productos-template">
+                <div class="productos-card">
+                    <h3 class="titulo"></h3>
+                    <figure>
+                        <img>
+                    </figure>
+                    <p class="descripcion"></p>
+                    <p class="precio"></p>
+                    <button class="btn_comprar">Agregar al carrito</button>
+                </div>
+            </template>
+        </div>
+    </section>
+    <script src="e_commerce.js"></script>
+    
+</body>
+</html>
